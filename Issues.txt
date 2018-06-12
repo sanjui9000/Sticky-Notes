@@ -1,0 +1,22 @@
+Issues & possible solutions
+
+1. No use of any reliable backend -
+
+1.1 At its current state, application completely relies on local storage for everything including authentication. An alternative that i would have used in real world scenario would be making use of Express to create a reliable backend for this type of application.
+
+2. Rules regarding authentication - 
+
+2.1 Current authentication does only validity checks. Actual password hashing and other backend related things like exiting account checks etc., are not included as they were not mentioned as part of task.
+
+3. Asynchronous calls -
+
+3.1 I have used ES5 to completely build this application. Use of ES6 would have made the code much more cleaner and would allow me to do asynchronous tasks in a much better way.
+
+4. Drag & Drop API
+
+4.1 Currently, drag from right to left works but left to right doesn't. This might be a minor issue.
+4.2 After dragging and dropping, attached event handlers to elements are gone sometimes. I suspect this may be somewhere related to hover or i might have made a minor mistake handling events.
+ 
+5. Browser Compatibility
+ 
+5.1 Application bugs on Internet Explorer sometimes and throws out random error that work well on Firefox and Chrome.
