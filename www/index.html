@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Sticky notes</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/context.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/toastMessages.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div id="navbar" class="topnav"></div>
+
+<ul id="mainContainer">
+</ul>
+
+<div id="modal-container"></div>
+
+<!-- Absolutely position snackbar to display error messages -->
+<div id="snackbar"></div>
+
+<!-- Context menu -->
+<menu id="ctxMenu">
+    <menu class="del" title="Delete"></menu>
+    <menu class="edi" title="Edit"></menu>
+</menu>
+
+</body>
+<script src="js/validations.js"></script>
+<script src="js/toastMessages.js"></script>
+<script src="js/updateView.js"></script>
+<script src="js/localdatastore.js"></script>
+<script src="js/notes.js"></script>
+<script src="js/users.js"></script>
+<script src="js/eventHandlers.js"></script>
+<script src="js/authentication.js"></script>
+<script src="js/index.js"></script>
+</html>
